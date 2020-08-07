@@ -17,7 +17,7 @@ class TestEx4(unittest.TestCase):
         self.assertTrue(result == [1,2,4])
 
     def test_large(self):
-        a = list(range(5000000))
+        a = list(range(500000))
         a += [-1,-2,-3]
 
         result = has_negatives(a)
